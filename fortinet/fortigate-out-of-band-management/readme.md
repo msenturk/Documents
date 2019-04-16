@@ -29,7 +29,7 @@ To sum it up:
 Guide
 -----
 
-To get an idea I have a couple of **screenshots** and listings for you. As always, it is crappy to configure FortiGate firewalls because the GUI does not show everything (such as IPv6 related configs) while the CLI is completely crowded with unused commands. I am using a **FG-100D with ****FortiOS v5.6.4** build1575 (GA). My prefix/subnet for the management VDOM is 2003:de:2016:331::/64 and [192.168.31.0](http://192.168.31.0/)/24. The internal default router (not on the FortiGate but in the upstreaming data center) has the ::1 and .1 IP addresses.
+To get an idea I have a couple of **screenshots** and listings for you. As always, it is crappy to configure FortiGate firewalls because the GUI does not show everything (such as IPv6 related configs) while the CLI is completely crowded with unused commands. I am using a **FG-100D with ****FortiOS v5.6.4** build1575 (GA). My prefix/subnet for the management VDOM is ```2003:de:2016:331::/64``` and ```192.168.31.0/24``` The internal default router (not on the FortiGate but in the upstreaming data center) has the ::1 and .1 IP addresses.
 
 ![](fortigate-oob-01-management-vdom.png)
 
