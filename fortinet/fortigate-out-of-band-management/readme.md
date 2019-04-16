@@ -42,11 +42,11 @@ To get an idea I have a couple of **screenshots** and listings for you. As alw
 
 Management VDOM
 
-[![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-02-Interface.png)
+[![](FortiGate-OoB-02-Interface.png)
 
 Interface
 
-[![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-03-MGMT-Port-outgoing.png)
+[![](FortiGate-OoB-03-MGMT-Port-outgoing.png)
 
 MGMT Port outgoing
 
