@@ -31,23 +31,23 @@ Guide
 
 To get an idea I have a couple of **screenshots** and listings for you. As always, it is crappy to configure FortiGate firewalls because the GUI does not show everything (such as IPv6 related configs) while the CLI is completely crowded with unused commands. I am using a **FG-100D with ****FortiOS v5.6.4** build1575 (GA). My prefix/subnet for the management VDOM is 2003:de:2016:331::/64 and [192.168.31.0](http://192.168.31.0/)/24. The internal default router (not on the FortiGate but in the upstreaming data center) has the ::1 and .1 IP addresses.
 
-![](FortiGate-OoB-01-Management-VDOM.png)
+![](fortigate-oob-01-management-vdom.png)
 
 Management VDOM
 
-![](FortiGate-OoB-02-Interface.png)
+![](fortigate-oob-02-interface.png)
 
 Interface
 
-![](FortiGate-OoB-03-MGMT-Port-outgoing.png)
+![](fortigate-oob-03-mgmt-port-outgoing.png)
 
 MGMT Port outgoing
 
-![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-04-Default-Routes.png)
+![](fortigate-oob-04-default-routes.png)
 
 Default Routes
 
-![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-05-Management-Interface-Reservation.png)
+![](fortigate-oob-05-management-interface-reservation.png)
 
 Management Interface Reservation
 
