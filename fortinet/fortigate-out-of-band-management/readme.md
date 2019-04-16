@@ -13,13 +13,6 @@ Note that there are other firewalls that implement that kind of OoB management s
 
 From my point of view it's really stupid to call a port "MGMT" and to even have multiple "Dedicated Management Port" and "Management Interface Reservation" options when those possibilities are not well designed at all.
 
-Workaround
-----------
-
-The following workaround is for having a separated management VDOM which completely isolates all management traffic from the data interfaces. A picture is worth a thousand words:
-
-[![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-Out-of-Band-Management-Workaround-1024x774.jpg)](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-Out-of-Band-Management-Workaround.jpg)\
-That is:
 
 -   **Enable virtual domains** and create another VDOM for your management. I called it "mgmt-vdom-x" just to have it distinguishable.
 -   Select this VDOM as your **management VDOM**, e.g., by clicking the "Switch Management" button in the GUI at Global -> System -> VDOM.
@@ -38,31 +31,31 @@ Guide
 
 To get an idea I have a couple of **screenshots** and listings for you. As always, it is crappy to configure FortiGate firewalls because the GUI does not show everything (such as IPv6 related configs) while the CLI is completely crowded with unused commands. I am using a **FG-100D with ****FortiOS v5.6.4** build1575 (GA). My prefix/subnet for the management VDOM is 2003:de:2016:331::/64 and [192.168.31.0](http://192.168.31.0/)/24. The internal default router (not on the FortiGate but in the upstreaming data center) has the ::1 and .1 IP addresses.
 
-[![](FortiGate-OoB-01-Management-VDOM.png)
+![](FortiGate-OoB-01-Management-VDOM.png)
 
 Management VDOM
 
-[![](FortiGate-OoB-02-Interface.png)
+![](FortiGate-OoB-02-Interface.png)
 
 Interface
 
-[![](FortiGate-OoB-03-MGMT-Port-outgoing.png)
+![](FortiGate-OoB-03-MGMT-Port-outgoing.png)
 
 MGMT Port outgoing
 
-[![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-04-Default-Routes.png)
+![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-04-Default-Routes.png)
 
 Default Routes
 
-[![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-05-Management-Interface-Reservation.png)
+![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-05-Management-Interface-Reservation.png)
 
 Management Interface Reservation
 
-[![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-06-Management-Interface-Reservation-IP-Address.png)
+![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-06-Management-Interface-Reservation-IP-Address.png)
 
 Different IP addresses on both firewalls
 
-[![]((https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-07-Interfaces.png)
+![]((https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-07-Interfaces.png)
 
 Interface Overview
 
