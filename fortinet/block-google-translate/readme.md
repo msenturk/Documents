@@ -13,7 +13,9 @@ The first thing we'll need to do is create a custom application signature. On th
 
 Name the new signature _Google Translate Hyperlink_** **and copy/paste the following signature:
 
+```
 F-SBID( --name "Google.Translate.Hyperlink.Custom"; --protocol tcp; --service ssl; --pattern "|16 03|"; --context packet; --within 2,context; --byte_test 1,=,1,3,relative; --pattern "translate.googleusercontent.com"; --context packet; --weight 20; --app_cat 12; )
+```
 
 Your new application should look like this:
 
