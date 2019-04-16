@@ -55,7 +55,7 @@ To get an idea I have a couple of **screenshots** and listings for you. As alw
 
 **Different IP addresses on both firewalls**
 
-![]((fortigate-oob-07-interfaces.png)
+![](fortigate-oob-07-interfaces.png)
 
 **Interface Overview**
 
