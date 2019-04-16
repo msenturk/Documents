@@ -33,31 +33,31 @@ To get an idea I have a couple of **screenshots** and listings for you. As alw
 
 ![](fortigate-oob-01-management-vdom.png)
 
-Management VDOM
+**Management VDOM**
 
 ![](fortigate-oob-02-interface.png)
 
-Interface
+**Interface**
 
 ![](fortigate-oob-03-mgmt-port-outgoing.png)
 
-MGMT Port outgoing
+**MGMT Port outgoing**
 
 ![](fortigate-oob-04-default-routes.png)
 
-Default Routes
+**Default Routes**
 
 ![](fortigate-oob-05-management-interface-reservation.png)
 
-Management Interface Reservation
+**Management Interface Reservation**
 
-![](https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-06-Management-Interface-Reservation-IP-Address.png)
+![](fortigate-oob-06-management-interface-reservation-ip-address.png)
 
-Different IP addresses on both firewalls
+**Different IP addresses on both firewalls**
 
-![]((https://blog.webernetz.net/wp-content/uploads/2018/06/FortiGate-OoB-07-Interfaces.png)
+![]((fortigate-oob-07-interfaces.png)
 
-Interface Overview
+**Interface Overview**
 
 And here are those **code snippets from the CLI**. Note that port2 has the set vdom "root" command shown, which seems to be the way FortiGate handles the port that is used for "Management Interface Reservation" in the HA section.
 
